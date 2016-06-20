@@ -1,13 +1,15 @@
 
 ### BUMP visuals
 
-a series of visual that will potentially be displayed on a big screen during the [Bump festival in Kortrijk on the 24th of june 2016](http://bump-festival.be/)
+the following is my contribution to a gigi performed by [No computer](http://nocomputer.be/). it's a series of 2D shaders that will potentially be displayed on a big screen during the [Bump festival in Kortrijk on the 24th of june 2016](http://bump-festival.be/).
+it is mostly hacked from the following shaders:
 
+[https://www.shadertoy.com/view/MlXGDf](https://www.shadertoy.com/view/MlXGDf), [https://www.shadertoy.com/view/Xds3zN](https://www.shadertoy.com/view/Xds3zN) & [http://thebookofshaders.com/](http://thebookofshaders.com/)
 
-the basic setup is a Processing 3 sketch with the following code:
+the basic setup is a [Processing 3](https://processing.org/download/?processing) sketch with the following code:
+
     PShader shader;
     String name = "shader_name";
-
     PImage logo;
 
     void setup() {
@@ -37,13 +39,9 @@ the basic setup is a Processing 3 sketch with the following code:
       saveFrame( name + ".png" );
     }
 
-<div>pressing any key will reload the shader an take a snapshot.</div>
-<div>you can copy paste any of the following snippets (click editor to open the code)</div>
-<div>this is mostly hacked from the following shaders:<br/>
-
-[https://www.shadertoy.com/view/MlXGDf](https://www.shadertoy.com/view/MlXGDf), [https://www.shadertoy.com/view/Xds3zN](https://www.shadertoy.com/view/Xds3zN) & [http://thebookofshaders.com/](http://thebookofshaders.com/)
-
-click on the preview link to watch a live version and the editor link to check out the code.
+pressing any key will reload the shader an take a snapshot.
+you can copy paste any of the following snippets (click editor to open the code)
+click on the preview link to watch a live version.
 
 <ul>
     <li>
