@@ -46,21 +46,11 @@ the basic setup is a Processing 3 sketch with the following code:
 [https://www.shadertoy.com/view/Xds3zN](https://www.shadertoy.com/view/Xds3zN)
 
 [http://thebookofshaders.com/](http://thebookofshaders.com/)
-
-link1
-
-[<img src="blocks_color_bright/blocks_bright.png">](http://player.thebookofshaders.com/?log=160620065714)
-
-link2
-
-[![color blocks bright](blocks_color_bright/blocks_bright.png)](http://player.thebookofshaders.com/?log=160620065714)
-
-
+<ul>
     <li>
         color blocks bright<br>
-        <a href="">
-            <br>
-        </a>
+        <img src="blocks_color_bright/blocks_bright.png"><br>
+        <a href="http://player.thebookofshaders.com/?log=160620065714">preview</a><br>
         <a href="http://thebookofshaders.com/edit.php?log=160620065457">editor</a>
         <br>
     </li>
@@ -163,9 +153,7 @@ link2
         <a href="http://thebookofshaders.com/edit.php?log=160620093508">editor</a>
         <br>
     </li>
-
-
-</div>
+</ul>
 
 
 </body>
