@@ -1,7 +1,7 @@
 
 ### BUMP visuals
 
-the following is my contribution to a gigi performed by [No computer](http://nocomputer.be/). it's a series of 2D shaders that will potentially be displayed on a big screen during the [Bump festival in Kortrijk on the 24th of june 2016](http://bump-festival.be/).
+the following is my contribution to a gig performed by [No computer](http://nocomputer.be/). it's a series of 2D shaders that will potentially be displayed on a big screen during the [Bump festival in Kortrijk on the 24th of june 2016](http://bump-festival.be/).
 it is mostly hacked from the following shaders:
 
 [https://www.shadertoy.com/view/MlXGDf](https://www.shadertoy.com/view/MlXGDf), [https://www.shadertoy.com/view/Xds3zN](https://www.shadertoy.com/view/Xds3zN) & [http://thebookofshaders.com/](http://thebookofshaders.com/)
@@ -10,13 +10,11 @@ the basic setup is a [Processing 3](https://processing.org/download/?processing)
 
     PShader shader;
     String name = "shader_name";
-    PImage logo;
 
     void setup() {
       size( 1200, 500, P3D );
       noStroke();
       shader = loadShader( name + ".glsl");
-      logo = loadImage("../logo.png");
     }
 
     void draw() {
@@ -27,13 +25,8 @@ the basic setup is a [Processing 3](https://processing.org/download/?processing)
       shader(shader);
       rect(0,0,width,height);
 
-      float n = norm( float( height ) / 2., 0., float( height ) );
-      int w = int( logo.width  * n );
-      int h = int( logo.height * n );
-
-      image( logo, width/2-w/2,height/2-h/2,w,h );
-
     }
+
     void keyPressed(){
       shader = loadShader( name + ".glsl");
       saveFrame( name + ".png" );
@@ -140,3 +133,6 @@ click on the preview link to watch a live version.
         <br>
     </li>
 </ul>
+
+the code is not commented and not optimised at all, just putting it here for the sake of sharing.
+not sure if any of those will make it to the big screen but it was fun to make :)

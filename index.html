@@ -49,50 +49,39 @@
 
     <div>a series of visual that will potentially be displayed on a big screen during the <a href="http://bump-festival.be/">Bump festival in Kortrijk on the 24th of june 2016</a></div>
 
+    <div>the following is my contribution to a gig performed by <a href="http://nocomputer.be/">No computer</a>. <br>
+        it's a series of 2D shaders that will potentially be displayed on a big screen during the <a href="http://bump-festival.be/">Bump festival in Kortrijk on the 24th of june 2016</a>.
+    <p>it is mostly hacked from the following shaders:<a href="https://www.shadertoy.com/view/MlXGDf">https://www.shadertoy.com/view/MlXGDf</a>, <a href="https://www.shadertoy.com/view/Xds3zN">https://www.shadertoy.com/view/Xds3zN</a> &amp; <a href="http://thebookofshaders.com/">http://thebookofshaders.com/</a></p>
 
-    <div>the basic setup is a Processing 3 sketch with the following code:</div>
+    <div>the basic setup is a <a href="https://processing.org/download/?processing">Processing 3</a> sketch with the following code:</div>
     <pre>
     PShader shader;
     String name = "shader_name";
-
-    PImage logo;
 
     void setup() {
       size( 1200, 500, P3D );
       noStroke();
       shader = loadShader( name + ".glsl");
-      logo = loadImage("../logo.png");
     }
 
     void draw() {
 
       shader.set("u_resolution", float(width), float(height));
-      shader.set("u_time", 1000 + millis() / 1000.0);
+      shader.set("u_time", millis() / 1000.0);
 
       shader(shader);
       rect(0,0,width,height);
 
-      float n = norm( float( height ) / 2., 0., float( height ) );
-      int w = int( logo.width  * n );
-      int h = int( logo.height * n );
-
-      image( logo, width/2-w/2,height/2-h/2,w,h );
-
     }
+        
     void keyPressed(){
       shader = loadShader( name + ".glsl");
       saveFrame( name + ".png" );
     }
     </pre>
-    <div>pressing any key will reload the shader an take a snapshot.</div>
-    <div>you can copy paste any of the following snippets (click editor to open the code)</div>
-    <div>this is mostly hacked from the following shaders:<br/>
-         <a href="https://www.shadertoy.com/view/MlXGDf">https://www.shadertoy.com/view/MlXGDf</a><br/>
-         <a href="https://www.shadertoy.com/view/Xds3zN">https://www.shadertoy.com/view/Xds3zN</a><br/>
-         <a href="http://thebookofshaders.com/">http://thebookofshaders.com/</a><br/>
-    </div>
-
-    <div>
+    <p>pressing any key will reload the shader an take a snapshot.</p>
+    <p>click on the image link to watch a live version.</p>
+    <p>you can copy paste any of the following snippets (click editor to open the code) in the above Processing template</p>
 
     <ul>
 
