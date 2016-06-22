@@ -1,13 +1,10 @@
 PShader shader;
 String name = "chladni";
 
-PImage logo;
-
 void setup() {
   size( 1200, 500, P3D );
   noStroke();
   shader = loadShader( name + ".glsl");
-  logo = loadImage("../logo.png");
 }
 
 void draw() {
@@ -17,12 +14,6 @@ void draw() {
 
   shader(shader);
   rect(0,0,width,height);
-
-  float n = norm( float( height ) / 2., 0., float( height ) );
-  int w = int( logo.width  * n );
-  int h = int( logo.height * n );
-
-  image( logo, width/2-w/2,height/2-h/2,w,h );
 
 }
 void keyPressed(){
