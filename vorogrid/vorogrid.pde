@@ -1,5 +1,5 @@
 PShader shader;
-String name = "vorogrid1";
+String name = "vorogrid";
 
 void setup() {
   size( 1200, 500, P3D );
