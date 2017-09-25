@@ -44,7 +44,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620065457">editor</a>
         <br>
     </li>
-
     <li>
         color blocks dark<br>
         <img src="blocks_color_dark/blocks_dark.png"><br>
@@ -52,7 +51,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620070339">editor</a>
         <br>
     </li>
-
     <li>
         cone<br>
             <img src="noisy_cone/noisy_cone.png"><br>
