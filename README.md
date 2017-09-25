@@ -58,7 +58,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620090347">editor</a>
         <br>
     </li>
-
     <li>
         black box<br>
             <img src="blackbox/black_box.png"><br>
@@ -66,8 +65,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620080758">editor</a>
         <br>
     </li>
-
-
     <li>
         animated Chladni pattern<br>
         <img src="chladni/chladni.png"><br>
@@ -75,7 +72,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620071328">editor</a>
         <br>
     </li>
-
     <li>
         gooey<br>
         <img src="gooey/gooey.png"><br>
@@ -83,8 +79,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620074633">editor</a>
         <br>
     </li>
-
-
     <li>
         Klimt<br>
             <img src="klimt/klimt.png"><br>
@@ -92,7 +86,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620082232">editor</a>
         <br>
     </li>
-
     <li>
         monolith<br>
             <img src="monolith/monolith.png"><br>
@@ -100,7 +93,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620092104">editor</a>
         <br>
     </li>
-
     <li>
         panopticon<br>
         <img src="panopitcon/panopitcon.png"><br>
@@ -108,7 +100,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620072511">editor</a>
         <br>
     </li>
-
     <li>
         polygons<br>
             <img src="polygons/polygons.png"><br>
@@ -116,7 +107,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620095628">editor</a>
         <br>
     </li>
-
     <li>
         vorogrid<br>
             <img src="vorogrid/vorogrid.png"><br>
@@ -124,8 +114,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620100323">editor</a>
         <br>
     </li>
-    </ul>
-
     <li>
         waves<br>
             <img src="waves/waves.png"><br>
