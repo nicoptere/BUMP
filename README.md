@@ -44,8 +44,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620065457">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         color blocks dark<br>
@@ -54,8 +52,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620070339">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         cone<br>
@@ -64,8 +60,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620090347">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         black box<br>
@@ -74,8 +68,7 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620080758">editor</a>
         <br>
     </li>
-</ul>
-<ul>
+
 
     <li>
         animated Chladni pattern<br>
@@ -84,8 +77,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620071328">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         gooey<br>
@@ -94,8 +85,7 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620074633">editor</a>
         <br>
     </li>
-</ul>
-<ul>
+
 
     <li>
         Klimt<br>
@@ -104,8 +94,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620082232">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         monolith<br>
@@ -114,8 +102,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620092104">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         panopticon<br>
@@ -124,8 +110,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620072511">editor</a>
         <br>
     </li>
-</ul>
-<ul>
 
     <li>
         polygons<br>
@@ -134,9 +118,6 @@ click on the preview link to watch a live version.
         <a href="http://thebookofshaders.com/edit.php?log=160620095628">editor</a>
         <br>
     </li>
-</ul>
-<ul>
-
 
     <li>
         vorogrid<br>
@@ -146,7 +127,6 @@ click on the preview link to watch a live version.
         <br>
     </li>
     </ul>
-<ul>
 
     <li>
         waves<br>
